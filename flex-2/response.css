@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+   display: flex;
+   border: 2px soild;
+}
+.flex-child1 {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: aqua;
+    flex-basis: auto;
+}
+.flex-child2 {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgreen;
+    flex-basis: 100px;
+}
+.flex-child3 {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: pink;
+    flex-basis: 200px;
+}

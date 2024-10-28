@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    border: 2px solid;
+}
+.flex-child1{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    flex-shrink: 0;
+    background-color: aqua;
+}
+.flex-child2{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    flex-shrink: 2;
+    background-color: yellow;
+}
+.flex-child3{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    flex-shrink: 1;
+    background-color:lightcoral;
+}
+.flex-child4{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    flex-shrink: 2;
+    background-color: lightseagreen;
+}

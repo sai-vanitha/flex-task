@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    border: 2px solid;
+    align-items: start;
+}
+.flex-child1{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: crimson;
+}
+
+.flex-child2{
+    width: 200px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: blueviolet;
+}
+.flex-child3{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: crimson;
+}
